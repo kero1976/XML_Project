@@ -3,18 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "データ", "データ", "{EE940762-27E3-4FE7-9FDB-CD021401DEA2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "データ", "データ", "{671708CB-BC79-4DA3-B854-E4CE7159B702}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{3BF540AA-19C4-4F0D-A772-75BCCD22DA55}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instances", "Instances", "{755992BB-F097-4289-9141-80FBA52542AE}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Downloads\XML_schema_pain.001.003.01\pain.001.003.01.xsd = ..\..\..\..\Downloads\XML_schema_pain.001.003.01\pain.001.003.01.xsd
-		..\..\..\..\Downloads\XML_schema_pain.001.003.01.zip = ..\..\..\..\Downloads\XML_schema_pain.001.003.01.zip
+		データ\Instances\pain.001.003.01.xml = データ\Instances\pain.001.003.01.xml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instances", "Instances", "{6A53330A-0288-4985-A2D2-05F5EAF99D42}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{BF251316-8CE1-44AD-85F9-6FE71F31EF97}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Downloads\XML_instance_pain.001.003.01\pain.001.003.01.xml = ..\..\..\..\Downloads\XML_instance_pain.001.003.01\pain.001.003.01.xml
-		..\..\..\..\Downloads\XML_instance_pain.001.003.01.zip = ..\..\..\..\Downloads\XML_instance_pain.001.003.01.zip
+		データ\Schema\pain.001.003.01.xsd = データ\Schema\pain.001.003.01.xsd
 	EndProjectSection
 EndProject
 Global
@@ -22,8 +20,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3BF540AA-19C4-4F0D-A772-75BCCD22DA55} = {EE940762-27E3-4FE7-9FDB-CD021401DEA2}
-		{6A53330A-0288-4985-A2D2-05F5EAF99D42} = {EE940762-27E3-4FE7-9FDB-CD021401DEA2}
+		{755992BB-F097-4289-9141-80FBA52542AE} = {671708CB-BC79-4DA3-B854-E4CE7159B702}
+		{BF251316-8CE1-44AD-85F9-6FE71F31EF97} = {671708CB-BC79-4DA3-B854-E4CE7159B702}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F626388C-416B-4830-A73F-90B3517151BF}
